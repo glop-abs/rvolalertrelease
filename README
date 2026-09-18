@@ -1,0 +1,13 @@
+@'
+# RvolAlert
+
+## 项目结构
+- `backend/`  后端服务
+- `frontend/` 前端应用
+
+## 启动方式
+（补充前后端的启动命令）
+
+## 说明
+（补充项目背景）
+'@ | Out-File -FilePath .\README.md -Encoding utf8

@@ -1,0 +1,439 @@
+time=2026-09-18T07:28:21.099+08:00 level=WARN msg="Binance WebSocket 断开，准备重连" attempt=2 err="WebSocket 连接失败: read tcp 172.19.0.1:50978->198.18.0.107:443: i/o timeout"
+time=2026-09-18T07:28:21.116+08:00 level=INFO msg="等待 WebSocket 重连" wait=2s
+time=2026-09-18T07:28:23.116+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T07:28:25.442+08:00 level=WARN msg="Binance WebSocket 断开，准备重连" attempt=3 err="WebSocket 连接失败: read tcp 172.19.0.1:60512->198.18.0.107:443: wsarecv: An existing connection was forcibly closed by the remote host."
+time=2026-09-18T07:28:25.442+08:00 level=INFO msg="等待 WebSocket 重连" wait=3s
+time=2026-09-18T07:28:28.444+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T07:28:35.473+08:00 level=WARN msg="Binance WebSocket 断开，准备重连" attempt=4 err="WebSocket 连接失败: read tcp 172.19.0.1:62332->198.18.0.107:443: wsarecv: An existing connection was forcibly closed by the remote host."
+time=2026-09-18T07:28:35.474+08:00 level=INFO msg="等待 WebSocket 重连" wait=4s
+time=2026-09-18T07:28:39.475+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T07:28:40.212+08:00 level=INFO msg="WebSocket 连接成功"
+time=2026-09-18T07:28:40.213+08:00 level=INFO msg="准备订阅 stream" count=529
+time=2026-09-18T07:28:40.213+08:00 level=INFO msg=已发送订阅请求 range=1~100 total=529
+time=2026-09-18T07:28:40.413+08:00 level=INFO msg=已发送订阅请求 range=101~200 total=529
+time=2026-09-18T07:28:40.613+08:00 level=INFO msg=已发送订阅请求 range=201~300 total=529
+time=2026-09-18T07:28:40.814+08:00 level=INFO msg=已发送订阅请求 range=301~400 total=529
+time=2026-09-18T07:28:41.015+08:00 level=INFO msg=已发送订阅请求 range=401~500 total=529
+time=2026-09-18T07:28:41.216+08:00 level=INFO msg=已发送订阅请求 range=501~529 total=529
+time=2026-09-18T07:28:41.416+08:00 level=INFO msg="开始接收 WebSocket 数据"
+time=2026-09-18T07:30:50.776+08:00 level=WARN msg="Binance WebSocket 断开，准备重连" attempt=5 err="WebSocket 读取失败: websocket: close 1006 (abnormal closure): unexpected EOF"
+time=2026-09-18T07:30:50.776+08:00 level=INFO msg="等待 WebSocket 重连" wait=5s
+time=2026-09-18T07:30:55.776+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T07:30:56.552+08:00 level=INFO msg="WebSocket 连接成功"
+time=2026-09-18T07:30:56.553+08:00 level=INFO msg="准备订阅 stream" count=529
+time=2026-09-18T07:30:56.553+08:00 level=INFO msg=已发送订阅请求 range=1~100 total=529
+time=2026-09-18T07:30:56.753+08:00 level=INFO msg=已发送订阅请求 range=101~200 total=529
+time=2026-09-18T07:30:56.954+08:00 level=INFO msg=已发送订阅请求 range=201~300 total=529
+time=2026-09-18T07:30:57.155+08:00 level=INFO msg=已发送订阅请求 range=301~400 total=529
+time=2026-09-18T07:30:57.356+08:00 level=INFO msg=已发送订阅请求 range=401~500 total=529
+time=2026-09-18T07:30:57.556+08:00 level=INFO msg=已发送订阅请求 range=501~529 total=529
+time=2026-09-18T07:30:57.757+08:00 level=INFO msg="开始接收 WebSocket 数据"
+time=2026-09-18T07:31:17.780+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:62732
+time=2026-09-18T07:31:34.019+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55651
+time=2026-09-18T07:32:12.915+08:00 level=INFO msg=收到退出信号，正在关闭 signal=interrupt
+time=2026-09-18T07:32:14.941+08:00 level=INFO msg="RVOL Alert 启动" version=0.5.0 api_addr=:8080 rvol_threshold=2 ranking_interval=1m0s ws_push_interval=5s
+time=2026-09-18T07:32:14.941+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=1 max=3
+time=2026-09-18T07:32:15.255+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=2 max=3
+time=2026-09-18T07:32:15.991+08:00 level=INFO msg=交易对获取完成 count=528
+time=2026-09-18T07:32:15.991+08:00 level=INFO msg="SymbolState 创建完成" count=528
+time=2026-09-18T07:32:15.991+08:00 level=INFO msg=开始初始化历史数据 count=528
+time=2026-09-18T07:32:20.170+08:00 level=WARN msg=历史数据初始化完成（有失败） total=528 success=526 failed=2 rate_limit=false
+time=2026-09-18T07:32:20.171+08:00 level=ERROR msg=历史数据初始化失败，程序停止 err="初始化失败，共 2 个交易对失败: YGGUSDT: RVOL 计算失败：currentVolume=0.0000 avg10=239092.8000 avg30=265927.7667"
+time=2026-09-18T07:33:28.007+08:00 level=INFO msg="RVOL Alert 启动" version=0.5.0 api_addr=:8080 rvol_threshold=2 ranking_interval=1m0s ws_push_interval=5s
+time=2026-09-18T07:33:28.007+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=1 max=3
+time=2026-09-18T07:33:28.950+08:00 level=INFO msg=交易对获取完成 count=528
+time=2026-09-18T07:33:28.950+08:00 level=INFO msg="SymbolState 创建完成" count=528
+time=2026-09-18T07:33:28.950+08:00 level=INFO msg=开始初始化历史数据 count=528
+time=2026-09-18T07:33:32.207+08:00 level=INFO msg=历史数据初始化完成 total=528 success=528
+time=2026-09-18T07:33:32.207+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T07:33:32.207+08:00 level=INFO msg="Alert WebSocket 广播启动" interval=5s
+time=2026-09-18T07:33:32.207+08:00 level=INFO msg="HTTP API 启动" addr=:8080
+time=2026-09-18T07:33:32.975+08:00 level=INFO msg="WebSocket 连接成功"
+time=2026-09-18T07:33:32.975+08:00 level=INFO msg="准备订阅 stream" count=529
+time=2026-09-18T07:33:32.975+08:00 level=INFO msg=已发送订阅请求 range=1~100 total=529
+time=2026-09-18T07:33:33.176+08:00 level=INFO msg=已发送订阅请求 range=101~200 total=529
+time=2026-09-18T07:33:33.377+08:00 level=INFO msg=已发送订阅请求 range=201~300 total=529
+time=2026-09-18T07:33:33.578+08:00 level=INFO msg=已发送订阅请求 range=301~400 total=529
+time=2026-09-18T07:33:33.778+08:00 level=INFO msg=已发送订阅请求 range=401~500 total=529
+time=2026-09-18T07:33:33.979+08:00 level=INFO msg=已发送订阅请求 range=501~529 total=529
+time=2026-09-18T07:33:34.179+08:00 level=INFO msg="开始接收 WebSocket 数据"
+time=2026-09-18T07:33:55.071+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55813
+time=2026-09-18T07:44:59.395+08:00 level=INFO msg=收到退出信号，正在关闭 signal=interrupt
+time=2026-09-18T07:53:10.094+08:00 level=INFO msg="RVOL Alert 启动" version=0.5.0 api_addr=:8080 rvol_threshold=2 ranking_interval=1m0s ws_push_interval=5s
+time=2026-09-18T07:53:10.095+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=1 max=3
+time=2026-09-18T07:53:10.837+08:00 level=INFO msg=交易对获取完成 count=528
+time=2026-09-18T07:53:10.837+08:00 level=INFO msg="SymbolState 创建完成" count=528
+time=2026-09-18T07:53:10.837+08:00 level=INFO msg=开始初始化历史数据 count=528
+time=2026-09-18T07:53:14.548+08:00 level=INFO msg=历史数据初始化完成 total=528 success=528
+time=2026-09-18T07:53:14.548+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T07:53:14.548+08:00 level=INFO msg="Alert WebSocket 广播启动" interval=5s
+time=2026-09-18T07:53:14.548+08:00 level=INFO msg="HTTP API 启动" addr=:8080
+time=2026-09-18T07:53:15.316+08:00 level=INFO msg="WebSocket 连接成功"
+time=2026-09-18T07:53:15.316+08:00 level=INFO msg="准备订阅 stream" count=529
+time=2026-09-18T07:53:15.316+08:00 level=INFO msg=已发订阅请求 range=1~100 total=529
+time=2026-09-18T07:53:15.517+08:00 level=INFO msg=已发订阅请求 range=101~200 total=529
+time=2026-09-18T07:53:15.717+08:00 level=INFO msg=已发订阅请求 range=201~300 total=529
+time=2026-09-18T07:53:15.918+08:00 level=INFO msg=已发订阅请求 range=301~400 total=529
+time=2026-09-18T07:53:16.119+08:00 level=INFO msg=已发订阅请求 range=401~500 total=529
+time=2026-09-18T07:53:16.319+08:00 level=INFO msg=已发订阅请求 range=501~529 total=529
+time=2026-09-18T07:53:16.520+08:00 level=INFO msg="开始接收 WebSocket 数据"
+time=2026-09-18T07:53:28.952+08:00 level=INFO msg=HTTP method=GET path=/alerts status=200 duration_ms=0 remote=127.0.0.1:54074
+time=2026-09-18T07:53:39.117+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54074
+time=2026-09-18T07:56:42.787+08:00 level=INFO msg="WS 连接请求" remote=127.0.0.1:59115
+time=2026-09-18T07:56:42.787+08:00 level=INFO msg="Flutter 客户端连接" remote=127.0.0.1:59115 total=1
+time=2026-09-18T07:56:42.791+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59116
+time=2026-09-18T07:57:42.434+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55499
+time=2026-09-18T07:57:45.784+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57301
+time=2026-09-18T07:58:40.193+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56802
+time=2026-09-18T07:58:42.424+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56154
+time=2026-09-18T07:59:42.426+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50249
+time=2026-09-18T08:00:42.407+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55842
+time=2026-09-18T08:01:42.407+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62904
+time=2026-09-18T08:02:42.419+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59709
+time=2026-09-18T08:03:42.386+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62082
+time=2026-09-18T08:04:30.017+08:00 level=INFO msg=收到退出信号，正在关闭 signal=interrupt
+time=2026-09-18T08:09:51.840+08:00 level=INFO msg="RVOL Alert 启动" version=0.5.0 api_addr=:8080 rvol_threshold=2 ranking_interval=1m0s ws_push_interval=5s
+time=2026-09-18T08:09:51.840+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=1 max=3
+time=2026-09-18T08:09:52.558+08:00 level=INFO msg=交易对获取完成 count=528
+time=2026-09-18T08:09:52.558+08:00 level=INFO msg="SymbolState 创建完成" count=528
+time=2026-09-18T08:09:52.558+08:00 level=INFO msg=开始初始化历史数据 count=528
+time=2026-09-18T08:09:56.377+08:00 level=INFO msg=历史数据初始化完成 total=528 success=528
+time=2026-09-18T08:09:56.378+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T08:09:56.378+08:00 level=INFO msg="Alert WebSocket 广播启动" interval=5s
+time=2026-09-18T08:09:56.378+08:00 level=INFO msg="HTTP API 启动" addr=:8080
+time=2026-09-18T08:09:57.148+08:00 level=INFO msg="WebSocket 连接成功"
+time=2026-09-18T08:09:57.148+08:00 level=INFO msg="准备订阅 stream" count=529
+time=2026-09-18T08:09:57.148+08:00 level=INFO msg=已发订阅请求 range=1~100 total=529
+time=2026-09-18T08:09:57.349+08:00 level=INFO msg=已发订阅请求 range=101~200 total=529
+time=2026-09-18T08:09:57.550+08:00 level=INFO msg=已发订阅请求 range=201~300 total=529
+time=2026-09-18T08:09:57.750+08:00 level=INFO msg=已发订阅请求 range=301~400 total=529
+time=2026-09-18T08:09:57.951+08:00 level=INFO msg=已发订阅请求 range=401~500 total=529
+time=2026-09-18T08:09:58.151+08:00 level=INFO msg=已发订阅请求 range=501~529 total=529
+time=2026-09-18T08:09:58.352+08:00 level=INFO msg="开始接收 WebSocket 数据"
+time=2026-09-18T08:10:12.638+08:00 level=INFO msg=HTTP method=GET path=/alerts status=200 duration_ms=0 remote=127.0.0.1:57836
+time=2026-09-18T08:10:42.549+08:00 level=INFO msg=HTTP method=GET path=/alerts status=200 duration_ms=0 remote=127.0.0.1:56298
+time=2026-09-18T08:12:44.508+08:00 level=INFO msg=收到退出信号，正在关闭 signal=interrupt
+time=2026-09-18T17:46:13.020+08:00 level=INFO msg="RVOL Alert 启动" version=0.5.0 api_addr=:8080 rvol_threshold=2 ranking_interval=1m0s ws_push_interval=5s
+time=2026-09-18T17:46:13.020+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=1 max=3
+time=2026-09-18T17:46:14.790+08:00 level=INFO msg=交易对获取完成 count=528
+time=2026-09-18T17:46:14.790+08:00 level=INFO msg="SymbolState 创建完成" count=528
+time=2026-09-18T17:46:14.790+08:00 level=INFO msg=开始初始化历史数据 count=528
+time=2026-09-18T17:46:20.637+08:00 level=WARN msg=历史数据初始化完成（有失败） total=528 success=526 failed=2 rate_limit=false
+time=2026-09-18T17:46:20.637+08:00 level=ERROR msg=历史数据初始化失败，程序停止 err="初始化失败，共 2 个交易对失败: TRUSTUSDT: RVOL 计算失败：currentVolume=0.0000 avg10=205815.6000 avg30=136343.0667"
+time=2026-09-18T17:46:40.657+08:00 level=INFO msg="RVOL Alert 启动" version=0.5.0 api_addr=:8080 rvol_threshold=2 ranking_interval=1m0s ws_push_interval=5s
+time=2026-09-18T17:46:40.657+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=1 max=3
+time=2026-09-18T17:46:41.671+08:00 level=INFO msg=交易对获取完成 count=528
+time=2026-09-18T17:46:41.671+08:00 level=INFO msg="SymbolState 创建完成" count=528
+time=2026-09-18T17:46:41.671+08:00 level=INFO msg=开始初始化历史数据 count=528
+time=2026-09-18T17:46:45.346+08:00 level=INFO msg=历史数据初始化完成 total=528 success=528
+time=2026-09-18T17:46:45.346+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T17:46:45.346+08:00 level=INFO msg="Alert WebSocket 广播启动" interval=5s
+time=2026-09-18T17:46:45.346+08:00 level=INFO msg="HTTP API 启动" addr=:8080
+time=2026-09-18T17:46:46.153+08:00 level=INFO msg="WebSocket 连接成功"
+time=2026-09-18T17:46:46.153+08:00 level=INFO msg="准备订阅 stream" count=529
+time=2026-09-18T17:46:46.153+08:00 level=INFO msg=已发订阅请求 range=1~100 total=529
+time=2026-09-18T17:46:46.354+08:00 level=INFO msg=已发订阅请求 range=101~200 total=529
+time=2026-09-18T17:46:46.554+08:00 level=INFO msg=已发订阅请求 range=201~300 total=529
+time=2026-09-18T17:46:46.755+08:00 level=INFO msg=已发订阅请求 range=301~400 total=529
+time=2026-09-18T17:46:46.956+08:00 level=INFO msg=已发订阅请求 range=401~500 total=529
+time=2026-09-18T17:46:47.156+08:00 level=INFO msg=已发订阅请求 range=501~529 total=529
+time=2026-09-18T17:46:47.357+08:00 level=INFO msg="开始接收 WebSocket 数据"
+time=2026-09-18T17:47:05.263+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59173
+time=2026-09-18T17:52:55.961+08:00 level=INFO msg=收到退出信号，正在关闭 signal=interrupt
+time=2026-09-18T17:53:12.116+08:00 level=INFO msg="RVOL Alert 启动" version=0.5.0 api_addr=:8080 rvol_threshold=2 ranking_interval=1m0s ws_push_interval=5s
+time=2026-09-18T17:53:12.117+08:00 level=INFO msg="请求 Binance ExchangeInfo" attempt=1 max=3
+time=2026-09-18T17:53:13.167+08:00 level=INFO msg=交易对获取完成 count=528
+time=2026-09-18T17:53:13.168+08:00 level=INFO msg="SymbolState 创建完成" count=528
+time=2026-09-18T17:53:13.168+08:00 level=INFO msg=开始初始化历史数据 count=528
+time=2026-09-18T17:53:17.949+08:00 level=INFO msg=历史数据初始化完成 total=528 success=528
+time=2026-09-18T17:53:17.949+08:00 level=INFO msg="连接 Binance WebSocket" url=wss://fstream.binance.com/market/ws
+time=2026-09-18T17:53:17.950+08:00 level=INFO msg="HTTP API 启动" addr=:8080
+time=2026-09-18T17:53:17.950+08:00 level=INFO msg="Alert WebSocket 广播启动" interval=5s
+time=2026-09-18T17:53:19.089+08:00 level=INFO msg="WebSocket 连接成功"
+time=2026-09-18T17:53:19.089+08:00 level=INFO msg="准备订阅 stream" count=529
+time=2026-09-18T17:53:19.089+08:00 level=INFO msg=已发订阅请求 range=1~100 total=529
+time=2026-09-18T17:53:19.290+08:00 level=INFO msg=已发订阅请求 range=101~200 total=529
+time=2026-09-18T17:53:19.490+08:00 level=INFO msg=已发订阅请求 range=201~300 total=529
+time=2026-09-18T17:53:19.691+08:00 level=INFO msg=已发订阅请求 range=301~400 total=529
+time=2026-09-18T17:53:19.892+08:00 level=INFO msg=已发订阅请求 range=401~500 total=529
+time=2026-09-18T17:53:20.093+08:00 level=INFO msg=已发订阅请求 range=501~529 total=529
+time=2026-09-18T17:53:20.293+08:00 level=INFO msg="开始接收 WebSocket 数据"
+time=2026-09-18T17:53:35.751+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:52985
+time=2026-09-18T19:31:19.777+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53794
+time=2026-09-18T19:31:19.779+08:00 level=INFO msg="WS 连接请求" remote=127.0.0.1:53795
+time=2026-09-18T19:31:19.779+08:00 level=INFO msg="Flutter 客户端连接" remote=127.0.0.1:53795 total=1
+time=2026-09-18T19:31:38.853+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:52964
+time=2026-09-18T19:32:19.447+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59847
+time=2026-09-18T19:33:17.750+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61055
+time=2026-09-18T19:33:19.449+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:61057
+time=2026-09-18T19:33:26.591+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61663
+time=2026-09-18T19:34:08.918+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59806
+time=2026-09-18T19:34:19.455+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59203
+time=2026-09-18T19:35:19.461+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50167
+time=2026-09-18T19:36:19.460+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:49977
+time=2026-09-18T19:37:19.464+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54655
+time=2026-09-18T19:37:54.105+08:00 level=INFO msg="Flutter 客户端断开" remote=127.0.0.1:53795 total=0
+time=2026-09-18T19:38:31.817+08:00 level=INFO msg="WS 连接请求" remote=127.0.0.1:54388
+time=2026-09-18T19:38:31.818+08:00 level=INFO msg="Flutter 客户端连接" remote=127.0.0.1:54388 total=1
+time=2026-09-18T19:38:31.821+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54389
+time=2026-09-18T19:39:31.557+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60819
+time=2026-09-18T19:40:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53333
+time=2026-09-18T19:41:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62745
+time=2026-09-18T19:42:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:65452
+time=2026-09-18T19:43:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63939
+time=2026-09-18T19:44:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50523
+time=2026-09-18T19:45:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:63794
+time=2026-09-18T19:46:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63778
+time=2026-09-18T19:47:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61984
+time=2026-09-18T19:48:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57869
+time=2026-09-18T19:49:31.551+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53594
+time=2026-09-18T19:50:31.550+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51415
+time=2026-09-18T19:51:31.564+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54078
+time=2026-09-18T19:52:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57123
+time=2026-09-18T19:53:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63842
+time=2026-09-18T19:54:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61760
+time=2026-09-18T19:55:31.551+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:52964
+time=2026-09-18T19:56:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:54769
+time=2026-09-18T19:57:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58310
+time=2026-09-18T19:58:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:60794
+time=2026-09-18T19:59:31.569+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60395
+time=2026-09-18T20:00:31.568+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60203
+time=2026-09-18T20:01:31.551+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:51985
+time=2026-09-18T20:02:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50861
+time=2026-09-18T20:03:31.561+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:51683
+time=2026-09-18T20:04:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55648
+time=2026-09-18T20:05:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60883
+time=2026-09-18T20:06:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54281
+time=2026-09-18T20:07:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:53622
+time=2026-09-18T20:08:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57312
+time=2026-09-18T20:09:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53334
+time=2026-09-18T20:10:31.564+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55947
+time=2026-09-18T20:11:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51862
+time=2026-09-18T20:12:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56545
+time=2026-09-18T20:13:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60065
+time=2026-09-18T20:14:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63920
+time=2026-09-18T20:15:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57901
+time=2026-09-18T20:16:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63129
+time=2026-09-18T20:17:31.568+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54730
+time=2026-09-18T20:18:31.565+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59645
+time=2026-09-18T20:19:31.564+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61668
+time=2026-09-18T20:20:31.561+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:58387
+time=2026-09-18T20:21:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55795
+time=2026-09-18T20:22:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62493
+time=2026-09-18T20:23:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:61981
+time=2026-09-18T20:24:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60685
+time=2026-09-18T20:25:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57201
+time=2026-09-18T20:26:31.567+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:49976
+time=2026-09-18T20:27:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:61256
+time=2026-09-18T20:28:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54572
+time=2026-09-18T20:29:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:61470
+time=2026-09-18T20:30:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:56417
+time=2026-09-18T20:31:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50919
+time=2026-09-18T20:32:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58657
+time=2026-09-18T20:33:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54362
+time=2026-09-18T20:34:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64925
+time=2026-09-18T20:35:31.551+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58366
+time=2026-09-18T20:36:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64846
+time=2026-09-18T20:37:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:65499
+time=2026-09-18T20:38:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:51911
+time=2026-09-18T20:39:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:49162
+time=2026-09-18T20:40:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:52824
+time=2026-09-18T20:41:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64971
+time=2026-09-18T20:42:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58074
+time=2026-09-18T20:43:31.570+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63721
+time=2026-09-18T20:44:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:60023
+time=2026-09-18T20:45:31.564+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62148
+time=2026-09-18T20:46:31.564+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:64352
+time=2026-09-18T20:47:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55818
+time=2026-09-18T20:48:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53079
+time=2026-09-18T20:49:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63802
+time=2026-09-18T20:50:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:49325
+time=2026-09-18T20:51:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:61924
+time=2026-09-18T20:52:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59285
+time=2026-09-18T20:53:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55401
+time=2026-09-18T20:54:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:61121
+time=2026-09-18T20:55:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51430
+time=2026-09-18T20:56:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57221
+time=2026-09-18T20:57:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:63684
+time=2026-09-18T20:58:31.557+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51566
+time=2026-09-18T20:59:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:65055
+time=2026-09-18T21:00:31.570+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:65236
+time=2026-09-18T21:01:31.568+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:51989
+time=2026-09-18T21:02:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:52797
+time=2026-09-18T21:03:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:64220
+time=2026-09-18T21:04:31.574+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50883
+time=2026-09-18T21:05:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64824
+time=2026-09-18T21:06:31.557+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:52982
+time=2026-09-18T21:07:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60410
+time=2026-09-18T21:08:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50169
+time=2026-09-18T21:09:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:63285
+time=2026-09-18T21:10:31.553+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51719
+time=2026-09-18T21:11:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51879
+time=2026-09-18T21:12:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50476
+time=2026-09-18T21:13:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55196
+time=2026-09-18T21:14:31.561+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57512
+time=2026-09-18T21:15:31.575+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:59357
+time=2026-09-18T21:16:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63751
+time=2026-09-18T21:17:31.571+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55967
+time=2026-09-18T21:18:31.567+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:65205
+time=2026-09-18T21:19:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55670
+time=2026-09-18T21:20:31.564+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57673
+time=2026-09-18T21:21:31.565+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55298
+time=2026-09-18T21:22:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56059
+time=2026-09-18T21:23:31.557+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62140
+time=2026-09-18T21:24:31.552+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:65413
+time=2026-09-18T21:25:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54930
+time=2026-09-18T21:26:31.552+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51196
+time=2026-09-18T21:27:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:54300
+time=2026-09-18T21:28:31.567+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62783
+time=2026-09-18T21:29:31.585+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51982
+time=2026-09-18T21:30:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55048
+time=2026-09-18T21:31:31.570+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:63124
+time=2026-09-18T21:32:31.574+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=4 remote=127.0.0.1:63353
+time=2026-09-18T21:33:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:62175
+time=2026-09-18T21:34:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51903
+time=2026-09-18T21:35:31.568+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:60135
+time=2026-09-18T21:36:31.582+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:52878
+time=2026-09-18T21:37:31.565+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:53878
+time=2026-09-18T21:38:31.585+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51450
+time=2026-09-18T21:39:31.561+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:60932
+time=2026-09-18T21:40:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:49354
+time=2026-09-18T21:41:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:52335
+time=2026-09-18T21:42:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59502
+time=2026-09-18T21:43:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:61926
+time=2026-09-18T21:44:31.570+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:63335
+time=2026-09-18T21:45:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:65143
+time=2026-09-18T21:46:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:56794
+time=2026-09-18T21:47:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57435
+time=2026-09-18T21:48:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:51548
+time=2026-09-18T21:49:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62384
+time=2026-09-18T21:50:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:65303
+time=2026-09-18T21:51:31.551+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64845
+time=2026-09-18T21:52:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51491
+time=2026-09-18T21:53:31.557+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:58841
+time=2026-09-18T21:54:31.552+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61159
+time=2026-09-18T21:55:31.565+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53790
+time=2026-09-18T21:56:31.563+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50920
+time=2026-09-18T21:57:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55491
+time=2026-09-18T21:58:31.561+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55253
+time=2026-09-18T21:59:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50862
+time=2026-09-18T22:00:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64874
+time=2026-09-18T22:01:31.555+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:52772
+time=2026-09-18T22:02:31.565+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:49985
+time=2026-09-18T22:03:31.561+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:60493
+time=2026-09-18T22:04:31.564+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57627
+time=2026-09-18T22:05:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61417
+time=2026-09-18T22:06:31.561+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61304
+time=2026-09-18T22:07:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55938
+time=2026-09-18T22:08:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50956
+time=2026-09-18T22:09:31.556+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:61679
+time=2026-09-18T22:10:31.570+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53828
+time=2026-09-18T22:11:31.566+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55924
+time=2026-09-18T22:12:31.569+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:56874
+time=2026-09-18T22:13:31.560+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:49974
+time=2026-09-18T22:14:31.562+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62527
+time=2026-09-18T22:15:31.558+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57891
+time=2026-09-18T22:16:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61544
+time=2026-09-18T22:17:31.559+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57926
+time=2026-09-18T22:18:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53171
+time=2026-09-18T22:19:31.554+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58057
+time=2026-09-18T22:20:31.568+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56609
+time=2026-09-18T22:21:31.567+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:51265
+time=2026-09-18T22:22:31.572+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:54062
+time=2026-09-18T22:23:31.590+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:58166
+time=2026-09-18T22:24:31.605+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:59049
+time=2026-09-18T22:25:31.619+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:64488
+time=2026-09-18T22:26:31.634+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50252
+time=2026-09-18T22:27:31.647+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53525
+time=2026-09-18T22:28:31.663+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:65445
+time=2026-09-18T22:29:31.677+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54648
+time=2026-09-18T22:30:31.711+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:52222
+time=2026-09-18T22:31:31.724+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:62005
+time=2026-09-18T22:32:31.739+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:64585
+time=2026-09-18T22:33:31.751+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54172
+time=2026-09-18T22:34:31.761+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:52110
+time=2026-09-18T22:35:31.811+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56313
+time=2026-09-18T22:36:31.805+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:60087
+time=2026-09-18T22:37:31.825+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:59891
+time=2026-09-18T22:38:31.839+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:65373
+time=2026-09-18T22:39:31.856+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53938
+time=2026-09-18T22:40:31.861+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55065
+time=2026-09-18T22:41:31.868+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:49984
+time=2026-09-18T22:42:31.884+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:56191
+time=2026-09-18T22:43:31.892+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50260
+time=2026-09-18T22:44:31.905+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62124
+time=2026-09-18T22:45:31.922+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56978
+time=2026-09-18T22:46:31.928+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:63158
+time=2026-09-18T22:47:31.946+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:65254
+time=2026-09-18T22:48:31.949+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64243
+time=2026-09-18T22:49:31.963+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:53800
+time=2026-09-18T22:50:31.979+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55946
+time=2026-09-18T22:51:31.987+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:64249
+time=2026-09-18T22:52:31.999+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:65096
+time=2026-09-18T22:53:32.031+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:62563
+time=2026-09-18T22:54:32.020+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:64024
+time=2026-09-18T22:55:32.070+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:53578
+time=2026-09-18T22:56:32.052+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59231
+time=2026-09-18T22:57:32.058+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57484
+time=2026-09-18T22:58:32.064+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:56147
+time=2026-09-18T22:59:32.072+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:62410
+time=2026-09-18T23:00:32.078+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59382
+time=2026-09-18T23:01:32.087+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:63047
+time=2026-09-18T23:02:32.090+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57447
+time=2026-09-18T23:03:32.119+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56051
+time=2026-09-18T23:04:32.109+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:53703
+time=2026-09-18T23:05:32.128+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55486
+time=2026-09-18T23:06:32.126+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58707
+time=2026-09-18T23:07:32.141+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55425
+time=2026-09-18T23:08:32.143+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61782
+time=2026-09-18T23:09:32.155+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:57451
+time=2026-09-18T23:10:32.159+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55290
+time=2026-09-18T23:11:32.167+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59470
+time=2026-09-18T23:12:32.193+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:64880
+time=2026-09-18T23:13:32.188+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62342
+time=2026-09-18T23:14:32.196+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62303
+time=2026-09-18T23:15:32.248+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:59608
+time=2026-09-18T23:16:32.205+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58776
+time=2026-09-18T23:17:32.216+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54069
+time=2026-09-18T23:18:32.219+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62721
+time=2026-09-18T23:19:32.228+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59110
+time=2026-09-18T23:20:32.233+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61793
+time=2026-09-18T23:21:32.284+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57774
+time=2026-09-18T23:22:32.235+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:59456
+time=2026-09-18T23:23:32.246+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:60728
+time=2026-09-18T23:24:32.259+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61055
+time=2026-09-18T23:25:32.257+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:58658
+time=2026-09-18T23:26:32.267+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:65045
+time=2026-09-18T23:27:32.268+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:54378
+time=2026-09-18T23:28:32.271+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:55335
+time=2026-09-18T23:29:32.281+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:50450
+time=2026-09-18T23:30:32.300+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:52014
+time=2026-09-18T23:31:32.303+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:58120
+time=2026-09-18T23:32:32.305+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:65336
+time=2026-09-18T23:33:32.308+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:62467
+time=2026-09-18T23:34:32.305+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:54964
+time=2026-09-18T23:35:32.312+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56498
+time=2026-09-18T23:36:32.310+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:56034
+time=2026-09-18T23:37:32.316+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:53467
+time=2026-09-18T23:38:32.320+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55109
+time=2026-09-18T23:39:32.337+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57868
+time=2026-09-18T23:40:32.341+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:49977
+time=2026-09-18T23:41:32.343+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:50482
+time=2026-09-18T23:42:32.346+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61673
+time=2026-09-18T23:43:32.347+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:64457
+time=2026-09-18T23:44:32.350+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:51555
+time=2026-09-18T23:45:32.354+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:55280
+time=2026-09-18T23:46:32.357+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=2 remote=127.0.0.1:59411
+time=2026-09-18T23:47:32.357+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:61777
+time=2026-09-18T23:48:32.373+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:56314
+time=2026-09-18T23:49:32.378+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:60773
+time=2026-09-18T23:50:32.378+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57332
+time=2026-09-18T23:51:32.381+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:59351
+time=2026-09-18T23:52:32.380+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:57748
+time=2026-09-18T23:53:32.380+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:57601
+time=2026-09-18T23:54:32.383+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:49976
+time=2026-09-18T23:55:32.383+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:49207
+time=2026-09-18T23:56:32.388+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:50971
+time=2026-09-18T23:57:32.398+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:64812
+time=2026-09-18T23:58:32.405+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=1 remote=127.0.0.1:53317
+time=2026-09-18T23:59:32.405+08:00 level=INFO msg=HTTP method=GET path=/ranking status=200 duration_ms=0 remote=127.0.0.1:52221
